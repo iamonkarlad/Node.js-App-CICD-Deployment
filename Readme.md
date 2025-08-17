@@ -150,7 +150,7 @@ environment {
 ![alt text](<Images/Screenshot 2025-08-16 005754.png>)
 - Push the jenkinsfile to github repo
 
-## Step 4) Create item for Jenkins Pipeline
+## Step 4) Create Job 
 - Go to `Jenkins → New Item → Pipeline. `
 
  ![alt text](<Images/Screenshot 2025-08-16 005841.png>)
@@ -158,10 +158,10 @@ environment {
 - Select item type - `Pipeline`
  ![alt text](<Images/Screenshot 2025-08-16 005908.png>)
 
-### Configure Pipeline
+### Configure job Pipeline
 - Configure the created ` Item `
 - Kept changes default up to `Trigger` section
-- In `Triggers` section, ***tick*** the `Github hook trigger for GITScm polling  `, for the Webhooks 
+- In `Triggers` section, ***Check in*** the `Github hook trigger for GITScm polling  `, for the Webhooks 
 ![alt text](<Images/Screenshot 2025-08-16 005951.png>)
 - In `Definition` section 
 - Select `Pipeline script from SCM.`
@@ -174,7 +174,7 @@ environment {
 - And paste it on Repository URL
 ![alt text](<Images/Screenshot 2025-08-16 010128.png>)
 - Make other changes default
-- In `Branch Specifier`, add branch, check the branch of created repo from github 
+- In `Branch Specifier` add branch, check the branch of created repo from github 
 - `*/master`
 ![alt text](<Images/Screenshot 2025-08-16 010157.png>)
 - other changes kept Default
@@ -182,9 +182,9 @@ environment {
 - `jenkinsfile`
 - And save the configuration
 ![alt text](<Images/Screenshot 2025-08-16 010217.png>)
- ## Step 5) Run pipeline
+ ## Step 5) Run Job
 - Click on `Build Now`, wait for seconds
-- Pipeline is been executing
+- Job is been executing
  ![alt text](<Images/Screenshot 2025-08-16 010329.png>)
 - If there is Green tick, then it is successfull build
 - If there is Red cross, then it is unsuccessfull build
