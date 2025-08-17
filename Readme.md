@@ -161,7 +161,7 @@ environment {
 ### Configure Pipeline
 - Configure the created ` Item `
 - Kept changes default up to `Trigger` section
-- In `Triggers` section, ***tick*** the `Github hook trigger for GITScm polling  ` 
+- In `Triggers` section, ***tick*** the `Github hook trigger for GITScm polling  `, for the Webhooks 
 ![alt text](<Images/Screenshot 2025-08-16 005951.png>)
 - In `Definition` section 
 - Select `Pipeline script from SCM.`
