@@ -199,7 +199,7 @@ environment {
 - Hit on Browser with `Port-3000`
 - open ` < Public-IP >:3000 ` in browser
 ![alt text](<Images/Screenshot 2025-08-16 010523.png>)
-- Successfully deployed Node app CICD
+## Successfully deployed Node app CICD
 
 ### Check it on Node app server 
 - Connect to server through SSH
