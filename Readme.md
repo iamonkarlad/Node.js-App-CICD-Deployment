@@ -152,6 +152,7 @@ environment {
 
 ## Step 4) Create item for Jenkins Pipeline
 - Go to `Jenkins → New Item → Pipeline. `
+
  ![alt text](<Images/Screenshot 2025-08-16 005841.png>)
 - Give `item name`
 - Select item type - `Pipeline`
