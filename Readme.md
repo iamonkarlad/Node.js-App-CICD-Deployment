@@ -163,7 +163,7 @@ environment {
 - Kept changes default up to `Trigger` section
 - In `Triggers` section, ***Check in*** the `Github hook trigger for GITScm polling  `, for the Webhooks 
 ![alt text](<Images/Screenshot 2025-08-16 005951.png>)
-- In `Definition` section 
+- In `Pipeline` section 
 - Select `Pipeline script from SCM.`
 ![alt text](<Images/Screenshot 2025-08-16 010013.png>)
 - In that `SCM`
