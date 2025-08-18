@@ -192,7 +192,7 @@ environment {
 ![alt text](<Images/Screenshot 2025-08-16 010343.png>)
 ![alt text](<Images/Screenshot 2025-08-16 010413.png>)
 ![alt text](<Images/Screenshot 2025-08-16 010431.png>)
-
+### Successfully Deployed CICD pipeline
 ## Step 6) Access Node app
 - Go to Node app server
 - Copy the Public-IP of Node app server
