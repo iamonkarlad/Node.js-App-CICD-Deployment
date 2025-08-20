@@ -163,7 +163,7 @@ environment {
 - Kept changes default up to `Trigger` section
 - In `Triggers` section, ***Check in*** the `Github hook trigger for GITScm polling  `, for the Webhooks 
 ![alt text](<Images/Screenshot 2025-08-16 005951.png>)
-- In `Definition` section 
+- In `Pipeline` section 
 - Select `Pipeline script from SCM.`
 ![alt text](<Images/Screenshot 2025-08-16 010013.png>)
 - In that `SCM`
@@ -192,14 +192,14 @@ environment {
 ![alt text](<Images/Screenshot 2025-08-16 010343.png>)
 ![alt text](<Images/Screenshot 2025-08-16 010413.png>)
 ![alt text](<Images/Screenshot 2025-08-16 010431.png>)
-
+### Successfully Deployed CICD pipeline
 ## Step 6) Access Node app
 - Go to Node app server
 - Copy the Public-IP of Node app server
 - Hit on Browser with `Port-3000`
 - open ` < Public-IP >:3000 ` in browser
 ![alt text](<Images/Screenshot 2025-08-16 010523.png>)
-- Successfully deployed Node app CICD
+## Successfully deployed Node app CICD
 
 ### Check it on Node app server 
 - Connect to server through SSH
