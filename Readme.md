@@ -1,5 +1,5 @@
 # Node.js App Deployment using GitHub, Jenkins, CI/CD, and AWS EC2
-### This project demonstrates deploying a **Node.js application** on an **AWS EC2 instance** using a **Jenkins CI/CD pipeline** integrated with GitHub.It includes **webhooks, plugins, credentials, Jenkinsfile**, and an **automated deployment workflow**.  
+### This project demonstrates deploying a **Node.js application** on an **AWS EC2 instance** using a **Jenkins CI/CD pipeline** integrated with GitHub. It includes **webhooks, plugins, credentials, Jenkinsfile**, and an **automated deployment workflow**.  
 ##  Project Overview  
 - **Source Code**: GitHub repository (Node.js app).  
 - **CI/CD Tool**: Jenkins (with pipeline + plugins).  
@@ -22,7 +22,7 @@
 -  Launch EC2 
     - AMI - Ubuntu
     - Key - .pem key
-    - In security group Open Ports :  `22 (SSH)`, `8080 (Jenkins)`, `80 (HTTP)`
+    - In security group Add Ports :  `22 (SSH)`, `8080 (Jenkins)`, `80 (HTTP)`
     - Connect via SSH: 
     ```bash
     ssh -i <key> ubuntu@<EC2_PUBLIC_IP>
@@ -32,10 +32,10 @@
 # Update the server
 sudo apt update && sudo apt upgrade -y
 
-#install java
+# Install java
 sudo apt install openjdk-17-jdk -y
 
-#Install jenkins
+# Install jenkins
 
 sudo wget -O /etc/apt/keyrings/jenkins-keyring.asc \
 https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
